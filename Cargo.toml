@@ -1,0 +1,12 @@
+[package]
+name = "rsmpeg-vcpkg-demo"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.vcpkg]
+dependencies = ["ffmpeg"]
+git = "https://github.com/microsoft/vcpkg"
+rev = "4a600e9"
+
+[dependencies]
+rsmpeg = "0.14.1"
